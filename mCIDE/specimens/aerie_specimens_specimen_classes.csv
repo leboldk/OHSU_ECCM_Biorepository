@@ -1,0 +1,4 @@
+specimen_class,description
+primary,Specimen as originally collected from the patient (e.g. a PAXgene tube)
+derivative,"New material type made by processing, e.g. plasma from an EDTA tube or RNA extracted from a PAXgene tube"
+aliquot,"Portion of a primary specimen or derivative split into its own container, same material type"
