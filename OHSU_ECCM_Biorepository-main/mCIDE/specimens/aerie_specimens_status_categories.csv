@@ -1,6 +1,0 @@
-status_category,description
-available,In storage and available for use
-reserved,In storage and set aside for a specific use
-depleted,Fully used; row kept for lineage
-shipped,Released to another laboratory or site
-destroyed,"Destroyed, e.g. after withdrawal of consent"
