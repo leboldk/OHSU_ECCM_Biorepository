@@ -1,0 +1,159 @@
+sprec_position,sprec_element,sprec_value,description
+1,type_of_sample,ASC,Ascites fluid
+1,type_of_sample,AMN,Amniotic fluid
+1,type_of_sample,BAL,Bronchoalveolar lavage
+1,type_of_sample,BLD,Blood (whole)
+1,type_of_sample,BMA,Bone marrow aspirate
+1,type_of_sample,BMK,Breast milk
+1,type_of_sample,BUC,Buccal cells
+1,type_of_sample,BFF,"Nondensity-gradient-centrifugation-separated buffy coat, non-viable"
+1,type_of_sample,CEL,"Density-gradient-centrifugation-separated mononuclear cells, viable"
+1,type_of_sample,CEN,Fresh cells from non-blood specimen type
+1,type_of_sample,CLN,"Cells from nonblood specimen type (e.g. ascites, amniotic), viable"
+1,type_of_sample,CRD,Cord blood
+1,type_of_sample,CSF,Cerebrospinal fluid
+1,type_of_sample,DWB,Dried whole blood (e.g. Guthrie cards)
+1,type_of_sample,NAS,Nasal washing
+1,type_of_sample,PEL,"Density-gradient-centrifugation-separated mononuclear cells, nonviable"
+1,type_of_sample,PEN,"Cells from non blood specimen type (e.g. ascites, amniotic), non-viable"
+1,type_of_sample,PFL,Pleural fluid
+1,type_of_sample,PL1,"Plasma, single spun"
+1,type_of_sample,PL2,"Plasma, double spun"
+1,type_of_sample,RBC,Red blood cells
+1,type_of_sample,SAL,Saliva
+1,type_of_sample,SEM,Semen
+1,type_of_sample,SER,Serum
+1,type_of_sample,SPT,Sputum
+1,type_of_sample,STL,Stool
+1,type_of_sample,SYN,Synovial fluid
+1,type_of_sample,TER,Tears
+1,type_of_sample,U24,24 h urine
+1,type_of_sample,URN,"Urine, random (spot)"
+1,type_of_sample,URM,"Urine, first morning"
+1,type_of_sample,URT,"Urine, timed"
+1,type_of_sample,BUF,"Nondensity-gradient-centrifugation-separated buffy coat, viable"
+1,type_of_sample,CTC,Enriched (physicochemically) circulating tumor cells
+1,type_of_sample,PLP,Dental pulp
+1,type_of_sample,ZZZ,Other
+2,type_of_primary_container,ACD,Acid citrate dextrose
+2,type_of_primary_container,ADD,Chemical additives/stabilizers
+2,type_of_primary_container,CAT,Serum tube without clot activator
+2,type_of_primary_container,CPD,Citrate phosphate dextrose
+2,type_of_primary_container,CPT,Cell Preparation Tube citrate
+2,type_of_primary_container,EDG,EDTA and gel
+2,type_of_primary_container,HEP,Lithium heparin
+2,type_of_primary_container,HIR,Hirudin
+2,type_of_primary_container,LHG,Lithium heparin and gel
+2,type_of_primary_container,ORG,Oragene collection container or equivalent
+2,type_of_primary_container,PAX,PAXgene blood RNA+
+2,type_of_primary_container,PED,Potassium EDTA
+2,type_of_primary_container,PET,Polyethylene tube sterile
+2,type_of_primary_container,PI1,S8820 protease inhibitor tablets or equivalent
+2,type_of_primary_container,PIX,Protease inhibitors
+2,type_of_primary_container,PPS,Polypropylene tube sterile
+2,type_of_primary_container,PXD,PAXgene blood DNA
+2,type_of_primary_container,PXR,PAXgene bone marrow RNA
+2,type_of_primary_container,SCI,Sodium citrate
+2,type_of_primary_container,SED,Sodium EDTA
+2,type_of_primary_container,SHP,Sodium heparin
+2,type_of_primary_container,SPO,Sodium fluoride/potassium oxalate
+2,type_of_primary_container,SST,Serum separator tube with clot activator
+2,type_of_primary_container,TEM,Tempus tube
+2,type_of_primary_container,TRC,Trace elements tube
+2,type_of_primary_container,CPH,Cell Preparation Tube heparin
+2,type_of_primary_container,CSV,Aldehyde-based stabilizer for CTCs
+2,type_of_primary_container,FIL,Physical filtration system
+2,type_of_primary_container,GLS,Glass
+2,type_of_primary_container,LHB,Lithium heparin and rubber plug
+2,type_of_primary_container,OMN,Stool collection container OMN with DNA stabilizer
+2,type_of_primary_container,RNL,RNA Later
+2,type_of_primary_container,SCK,Nonaldehyde-based stabilizer for cell-free nucleic acids
+2,type_of_primary_container,XXX,Unknown
+2,type_of_primary_container,ZZZ,Other
+3,pre_centrifugation,A1,"RT, <30 min"
+3,pre_centrifugation,B1,"2-10 C, <30 min"
+3,pre_centrifugation,A,"RT, <2 h"
+3,pre_centrifugation,B,"2-10 C, <2 h"
+3,pre_centrifugation,C,"RT, 2-4 h"
+3,pre_centrifugation,D,"2-10 C, 2-4 h"
+3,pre_centrifugation,E,"RT, 4-8 h"
+3,pre_centrifugation,F,"2-10 C, 4-8 h"
+3,pre_centrifugation,G,"RT, 8-12 h"
+3,pre_centrifugation,H,"2-10 C, 8-12 h"
+3,pre_centrifugation,I,"RT, 12-24 h"
+3,pre_centrifugation,J,"2-10 C, 12-24 h"
+3,pre_centrifugation,K,"RT, 24-48 h"
+3,pre_centrifugation,L,"2-10 C, 24-48 h"
+3,pre_centrifugation,M,"RT, >48 h"
+3,pre_centrifugation,N,"2-10 C, >48 h"
+3,pre_centrifugation,O,"35-38 C, <2 h"
+3,pre_centrifugation,X,Unknown
+3,pre_centrifugation,Z,Other
+4,centrifugation,A,"RT, 10-15 min, <3000 g, without braking"
+4,centrifugation,B,"RT, 10-15 min, <3000 g, with braking"
+4,centrifugation,C,"2-10 C, 10-15 min, <3000 g, without braking"
+4,centrifugation,D,"2-10 C, 10-15 min, <3000 g, with braking"
+4,centrifugation,E,"RT, 10-15 min, 3000-6000 g, with braking"
+4,centrifugation,F,"2-10 C, 10-15 min, 3000-6000 g, with braking"
+4,centrifugation,G,"RT, 10-15 min, 6000-10000 g, with braking"
+4,centrifugation,H,"2-10 C, 10-15 min, 6000-10000 g, with braking"
+4,centrifugation,I,"RT, 10-15 min, >10000 g, with braking"
+4,centrifugation,J,"2-10 C, 10-15 min, >10000 g, with braking"
+4,centrifugation,M,"RT, 30 min, <1000 g, without braking"
+4,centrifugation,N,No centrifugation
+4,centrifugation,X,Unknown
+4,centrifugation,Z,Other
+5,second_centrifugation,A,"RT, 10-15 min, <3000 g, without braking"
+5,second_centrifugation,B,"RT, 10-15 min, <3000 g, with braking"
+5,second_centrifugation,C,"2-10 C, 10-15 min, <3000 g, without braking"
+5,second_centrifugation,D,"2-10 C, 10-15 min, <3000 g, with braking"
+5,second_centrifugation,E,"RT, 10-15 min, 3000-6000 g, with braking"
+5,second_centrifugation,F,"2-10 C, 10-15 min, 3000-6000 g, with braking"
+5,second_centrifugation,G,"RT, 10-15 min, 6000-10000 g, with braking"
+5,second_centrifugation,H,"2-10 C, 10-15 min, 6000-10000 g, with braking"
+5,second_centrifugation,I,"RT, 10-15 min, >10000 g, with braking"
+5,second_centrifugation,J,"2-10 C, 10-15 min, >10000 g, with braking"
+5,second_centrifugation,M,"RT, 30 min, <1000 g, without braking"
+5,second_centrifugation,N,No centrifugation
+5,second_centrifugation,X,Unknown
+5,second_centrifugation,Z,Other
+6,post_centrifugation_delay,A,"<1 h, 2-10 C"
+6,post_centrifugation_delay,B,"<1 h, RT"
+6,post_centrifugation_delay,C,"1-2 h, 2-10 C"
+6,post_centrifugation_delay,D,"1-2 h, RT"
+6,post_centrifugation_delay,E,"2-8 h, 2-10 C"
+6,post_centrifugation_delay,F,"2-8 h, RT"
+6,post_centrifugation_delay,G,"8-24 h, 2-10 C"
+6,post_centrifugation_delay,H,"8-24 h, RT"
+6,post_centrifugation_delay,I,">24 h, 2-10 C"
+6,post_centrifugation_delay,J,">24 h, RT"
+6,post_centrifugation_delay,M,">48 h, RT"
+6,post_centrifugation_delay,N,Not applicable
+6,post_centrifugation_delay,X,Unknown
+6,post_centrifugation_delay,Z,Other
+7,long_term_storage,A,"PP tube 0.5-2 mL, (-85) to (-60) C"
+7,long_term_storage,B,"PP tube 0.5-2 mL, (-35) to (-18) C"
+7,long_term_storage,V,"PP tube 0.5-2 mL, <-135 C"
+7,long_term_storage,C,"Cryotube 1-2 mL, liquid nitrogen"
+7,long_term_storage,D,"Cryotube 1-2 mL, (-85) to (-60) C"
+7,long_term_storage,E,"Cryotube 1-2 mL, programmable freezing to <-135 C"
+7,long_term_storage,F,"Plastic cryo straw, liquid nitrogen"
+7,long_term_storage,G,"Straw, (-85) to (-60) C"
+7,long_term_storage,H,"Straw, (-35) to (-18) C"
+7,long_term_storage,I,"Straw, programmable freezing to <-135 C"
+7,long_term_storage,J,"PP tube >=5 mL, (-85) to (-60) C"
+7,long_term_storage,K,"PP tube >=5 mL, (-35) to (-18) C"
+7,long_term_storage,L,"Microplate, (-85) to (-60) C"
+7,long_term_storage,M,"Microplate, (-35) to (-18) C"
+7,long_term_storage,N,"Cryotube 1-2 mL, liquid nitrogen after temporary (-85) to (-60) C"
+7,long_term_storage,O,"Plastic cryo straw, liquid nitrogen after temporary (-85) to (-60) C"
+7,long_term_storage,P,"Paraffin block, RT or 2-10 C"
+7,long_term_storage,Q,"Bag, liquid nitrogen"
+7,long_term_storage,R,"Dry technology medium, RT"
+7,long_term_storage,S,"PP tube 40-500 uL, (-85) to (-60) C"
+7,long_term_storage,T,"PP tube 40-500 uL, (-35) to (-18) C"
+7,long_term_storage,W,"PP tube 40-500 uL, <-135 C"
+7,long_term_storage,Y,"Original primary container, (-35) to (-18) C or (-85) to (-60) C"
+7,long_term_storage,U,"Paraffin block, (-35) to (-18) C"
+7,long_term_storage,X,Unknown
+7,long_term_storage,Z,Other

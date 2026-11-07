@@ -1,0 +1,231 @@
+table_name: specimens
+version: "3.0"  # CLIF version whose conventions this table follows; clifpy stamps this on validation results
+specimens_version: "0.1"
+
+columns:
+- name: patient_id
+  data_type: VARCHAR
+  required: true
+  is_category_column: false
+  is_group_column: false
+- name: study_name
+  data_type: VARCHAR
+  required: true
+  is_category_column: false
+  is_group_column: false
+- name: study_id
+  data_type: VARCHAR
+  required: true
+  is_category_column: false
+  is_group_column: false
+- name: specimen_label
+  data_type: VARCHAR
+  required: true
+  is_category_column: false
+  is_group_column: false
+- name: specimen_id
+  data_type: VARCHAR
+  required: true
+  is_category_column: false
+  is_group_column: false
+- name: primary_specimen_id
+  data_type: VARCHAR
+  required: true
+  is_category_column: false
+  is_group_column: false
+- name: specimen_class
+  data_type: VARCHAR
+  required: true
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - primary
+  - derivative
+  - aliquot
+- name: aliquot_number
+  data_type: INT
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: specimen_name
+  data_type: VARCHAR
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: specimen_category
+  data_type: VARCHAR
+  required: true
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - plasma_blood
+  - pleural
+  - peritoneal
+  - urine
+  - bal
+- name: container_category
+  data_type: VARCHAR
+  required: true
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - paxgene_blood_rna
+  - paxgene_blood_ccfdna
+  - edta
+  - sst
+  - streck_cfdna
+- name: derivative_category
+  data_type: VARCHAR
+  required: false
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - plasma
+  - serum
+  - buffy_coat
+- name: biomolecule_category
+  data_type: VARCHAR
+  required: false
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - rna
+  - dna
+  - cfdna
+  - protein
+- name: initial_quantity_value
+  data_type: DOUBLE
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: remaining_quantity_value
+  data_type: DOUBLE
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: quantity_unit
+  data_type: VARCHAR
+  required: false
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - mL
+  - uL
+  - cells
+- name: collect_dttm
+  data_type: DATETIME
+  required: true
+  is_category_column: false
+  is_group_column: false
+- name: receipt_dttm
+  data_type: DATETIME
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: process_start_dttm
+  data_type: DATETIME
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: process_complete_dttm
+  data_type: DATETIME
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: collection_source_category
+  data_type: VARCHAR
+  required: false
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - research_dedicated
+  - remnant
+- name: protocol_name
+  data_type: VARCHAR
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: processor_id
+  data_type: VARCHAR
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: storage_location
+  data_type: VARCHAR
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: freeze_thaw_count
+  data_type: INT
+  required: false
+  is_category_column: false
+  is_group_column: false
+- name: status_category
+  data_type: VARCHAR
+  required: true
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - available
+  - reserved
+  - depleted
+  - shipped
+  - destroyed
+- name: irb_protocol_id
+  data_type: VARCHAR
+  required: true
+  is_category_column: false
+  is_group_column: false
+- name: consent_category
+  data_type: VARCHAR
+  required: true
+  is_category_column: true
+  is_group_column: false
+  permissible_values:
+  - broad_research
+  - specific_use
+  - opt_out
+  - waiver_of_consent
+  - other
+- name: repository_yn
+  data_type: INT
+  required: true
+  is_category_column: false
+  is_group_column: false
+  permissible_values:
+  - 0
+  - 1
+- name: withdrawal_dttm
+  data_type: DATETIME
+  required: false
+  is_category_column: false
+  is_group_column: false
+
+required_columns:
+- patient_id
+- study_name
+- study_id
+- specimen_label
+- specimen_id
+- primary_specimen_id
+- specimen_class
+- specimen_category
+- container_category
+- collect_dttm
+- status_category
+- irb_protocol_id
+- consent_category
+- repository_yn
+
+category_columns:
+- specimen_class
+- specimen_category
+- container_category
+- derivative_category
+- biomolecule_category
+- quantity_unit
+- collection_source_category
+- status_category
+- consent_category
+
+group_columns: []
